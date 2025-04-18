@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Articles written by a frontend developer." />
+  <title>Articles - Frontend Developer Portfolio</title>
+  <style>
+ body {
+      font-family: Satoshi, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #fff;
+      color: #3486ea;
+    }
+
+    header, main, footer {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .title-section {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .title-section h2 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    .title-section p {
+      color: #666;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    section {
+      border: 1px solid #ccc;
+      padding: 1rem;
+    }
+
+    h3 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      color: #2d3748;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 2rem;
+      border-top: 1px solid #eee;
+      padding-top: 1rem;
+    }
+
+    .reviews {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .review {
+      flex: 1 1 200px;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+
+    .review p {
+      margin-bottom: 0.5rem;
+    }
+
+    .review span {
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John Taiwo</h1>
+    <nav>
+      <a href="index.html">Home</a> /
+      <a href="projects.html">Projects</a> /
+      <a href="articles.html">Articles</a> /
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="title-section">
+    <h2>My Articles</h2>
+    <p>Insights and tutorials on frontend development, open source, and best practices.</p>
+  </div>
+
+  <main class="grid">
+    <section>
+      <h3>Understanding HTML Semantics</h3>
+      <p>A guide to using semantic HTML elements for accessibility and SEO.</p>
+    </section>
+
+    <section>
+      <h3>CSS Grid vs Flexbox</h3>
+      <p>Comparison of layout techniques in modern CSS.</p>
+    </section>
+
+    <section>
+      <h3>How I Contribute to Open Source</h3>
+      <p>My journey and workflow contributing to open source repositories on GitHub.</p>
+    </section>
+
+    <section>
+      <h3>Top 5 JavaScript Tricks</h3>
+      <p>Useful tricks and tips to write cleaner and smarter JS code.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; All rights reserved 2025</p>
+  </footer>
+</body>
+</html>

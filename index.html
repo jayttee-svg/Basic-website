@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Frontend Developer Portfolio" />
+  <title>Frontend Developer Portfolio</title>
+  <style>
+    body {
+      font-family: Satoshi, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #fff;
+      color: #3486ea;
+    }
+
+    header, main, footer {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .title-section {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .title-section h2 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    .title-section p {
+      color: #666;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    section {
+      border: 1px solid #ccc;
+      padding: 1rem;
+    }
+
+    h3 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      color: #2d3748;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 2rem;
+      border-top: 1px solid #eee;
+      padding-top: 1rem;
+    }
+
+    .reviews {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .review {
+      flex: 1 1 200px;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+
+    .review p {
+      margin-bottom: 0.5rem;
+    }
+
+    .review span {
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>John Taiwo</h1>
+  <nav>
+    <a href="#">Home</a> /
+    <a href="projects.html">Projects</a> /
+    <a href="articles.html">Articles</a> /
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="title-section">
+  <h2>Frontend Developer</h2>
+  <p>HTML only with proper layout, no styling</p>
+</div>
+
+<main class="grid">
+  <section>
+    <h3>Projects</h3>
+    <ul>
+      <li>HTML Only Portfolio</li>
+      <li>Calculator</li>
+      <li>Quiz App</li>
+      <li>Countdown Timer</li>
+      <li>Product Upcoming Page</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Work Experience</h3>
+    <p><strong>Developers World</strong><br/>
+    Solved all the frontend projects<br/>
+    <a href="#">Visit my Profile</a></p>
+
+    <p><strong>OpenSource Work</strong><br/>
+    Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.<br/>
+    <a href="#">Visit my GitHub Profile</a></p>
+  </section>
+
+  <section>
+    <h3>Education</h3>
+    <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+    <ul>
+      <li>Object Oriented Programming</li>
+      <li>Data Structures and Algorithms</li>
+      <li>Web Engineering</li>
+      <li>Artificial Intelligence</li>
+      <li>Human Computer Interaction</li>
+      <li>Computer Graphics</li>
+      <li>Database Management Systems</li>
+      <li>Distributed Database Systems</li>
+      <li>Discrete Mathematics</li>
+    </ul>
+  </section>
+</main>
+
+<section>
+  <h3>Reviews from my Teachers</h3>
+  <div class="reviews">
+    <div class="review">
+      <p>John Taiwo designed our website and made it very responsive.</p>
+      <span>Matthews Philips<br/>CEO Fastlane</span>
+    </div>
+    <div class="review">
+      <p>John Taiwo helped our company to be more visible only.</p>
+      <span>Stephen Hawkins<br/>Brand Manager</span>
+    </div>
+    <div class="review">
+      <p>John Taiwo always the best to work with.</p>
+      <span>Jane Mary<br/>Producer</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; John Taiwo. All rights reserved 2025</p>
+</footer>
+
+</body>
+</html>
